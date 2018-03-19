@@ -21,7 +21,7 @@
     "eslint": "eslint src/** --fix",
     "format": "prettier-eslint src/**/*.js",
     "docs": "gitdocs serve",
-    "postinstall": "postinstall-build es --script prepublishOnly"
+    "postinstall": "postinstall-build-yarn es --script prepublishOnly"
   },
   "authors": [
     {
