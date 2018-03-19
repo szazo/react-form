@@ -20,8 +20,7 @@
     "postPublish": "git push --tags",
     "eslint": "eslint src/** --fix",
     "format": "prettier-eslint src/**/*.js",
-    "docs": "gitdocs serve",
-    "postinstall": "postinstall-build-yarn es --script prepublishOnly"
+    "docs": "gitdocs serve"
   },
   "authors": [
     {
@@ -55,7 +54,6 @@
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.5",
-    "postinstall-build-yarn": "^0.0.2",
     "prop-types": "^15.5.10",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
